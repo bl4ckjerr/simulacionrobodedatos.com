@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Simulación</title>
+</head>
+<body>
+    <h1>⚠️ Prueba de Vulnerabilidad ⚠️</h1>
+    <p>Este es un entorno de prueba para demostrar la inyección de código en el chat.</p>
+
+    <script>
+        // Datos ficticios para la prueba
+        var userData = {
+            user: "UsuarioPrueba",
+            userAgent: navigator.userAgent,
+            page: window.location.href
+        };
+
+        console.log("✅ Datos simulados enviados:", userData);
+
+        alert("🚨 Vulnerabilidad detectada: ¡Esta página podría haber robado tus datos!");
+    </script>
+</body>
+</html>
